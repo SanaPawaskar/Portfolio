@@ -26,8 +26,8 @@ const Services = () => {
         {/* dark mode */}
         <span >My</span> <span>Skills</span>
         <span>
-        With an experience of 2+ years as frontend developer
-        and<br /> Certification done as  full stack developer
+        Certification done in  full stack developer
+        (MERN)<br /> Web developer
          </span>
   <a href={Resume} download>
           <button className="button s-button">Download CV</button>
