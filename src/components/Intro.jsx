@@ -30,7 +30,7 @@ const Intro = () => {
           <span >Hey! I Am</span>
           <span>Sana Pawaskar</span>
           <span>
-          Passionate Software Developer with 2+ years of experience crafting 
+          Passionate Software Developer with 3+ years of experience crafting 
           efficient and scalable web solutions.
           </span>
         </div>

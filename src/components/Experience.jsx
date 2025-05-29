@@ -10,6 +10,15 @@ const Experience = () => {
   AOS.init();
   return (
     <div className="experience" id='experience'>
+ <div className="exper-box-right" data-aos="fade-left" data-aos-duration="1500">
+      <div className="heading-exper">
+      <h2 className="h-1-tag">SAP Enginerring</h2>
+      <h4>Software Developer</h4>
+      <span>2024-Present</span>
+      </div>
+      <p>Developed an inventory management system (MERN stack) to streamline stock tracking and procurement workflows. Implemented authentication (JWT), CRUD features, status tracking, PDF generation, and data visualizations. Handled end-to-end development including requirement gathering, wireframing, and deployment (MongoDB Atlas, Express middleware).Integrated AI technologies for enhanced UX (e.g., ChatGPT API for intelligent automation).</p>
+     </div>
+
   <div className="exper-box-left" data-aos="fade-left" data-aos-duration="1500">
       <div className="heading-exper">
       <h2 className="h-1-tag">1click capital </h2>

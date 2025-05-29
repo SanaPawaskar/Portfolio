@@ -5,6 +5,7 @@ import "./Style.css";
 import Sidebar from "../img/Untitled.png";
 import Ecommerce from "../img/Mern.png";
 import HOC from "../img/todo.png";
+import Yallah from "../img/Yallah.png"
 
 // import { themeContext } from "../../Context";
 import "slick-carousel/slick/slick.css";
@@ -64,6 +65,12 @@ let settings = {
       <div className="slide-box">
       <img src={Ecommerce} alt="" />
       </div>
+     <a href="https://yalla-haji-7wan.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <div className="slide-box">
+    <img src={Yallah} alt="Yallah Haji" />
+  </div>
+</a>
+
     </Slider>
     </div>
   );
