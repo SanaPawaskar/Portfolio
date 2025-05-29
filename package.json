@@ -22,14 +22,13 @@
     "swiper": "^11.1.12",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "build:gh": "DEPLOY_ENV=GH_PAGES next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
