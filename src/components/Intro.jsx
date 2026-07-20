@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+
 import "./Style.css";
 import Vector1 from "../img/Vector1.png";
 import Vector2 from "../img/Vector2.png";
