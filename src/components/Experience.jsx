@@ -1,12 +1,7 @@
-import React, { useContext } from "react";
-// import { themeContext } from "../../Context";
-// import "./Experience.css";
-import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+
 import AOS from "aos"
 const Experience = () => {
-  // const theme = useContext(themeContext);
-  // const darkMode = theme.state.darkMode;
+
   AOS.init();
   return (
     <div className="experience" id='experience'>

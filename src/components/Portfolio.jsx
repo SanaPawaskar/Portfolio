@@ -1,10 +1,5 @@
-import React, { useContext } from "react";
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css";
 import "./Style.css";
 import Sidebar from "../img/Untitled.png";
-import Ecommerce from "../img/Mern.png";
-// import HOC from "../img/todo.png";
 import Yallah from "../img/Yallah.png"
 import ss2 from "../img/ss2.png"
 import ss4 from "../img/ss4.png"
@@ -57,15 +52,6 @@ let settings = {
       <div className="slide-box">
       <img src={Sidebar} alt="" />
       </div>
-      {/* <div className="slide-box">
-      <img src={Ecommerce} alt="" />
-      </div> */}
-      {/* <div className="slide-box">
-      <img src={HOC} alt="" />
-      </div> */}
-      {/* <div className="slide-box">
-      <img src={Ecommerce} alt="" />
-      </div> */}
             <a href="https://inventory-system-sap.vercel.app/login" target="_blank" rel="noopener noreferrer">
   <div className="slide-box">
     <img src={ss3} alt="inventory-system-sap" />
