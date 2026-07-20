@@ -4,10 +4,11 @@ import "swiper/css";
 import "./Style.css";
 import Sidebar from "../img/Untitled.png";
 import Ecommerce from "../img/Mern.png";
-import HOC from "../img/todo.png";
+// import HOC from "../img/todo.png";
 import Yallah from "../img/Yallah.png"
-
-// import { themeContext } from "../../Context";
+import ss2 from "../img/ss2.png"
+import ss4 from "../img/ss4.png"
+import ss3 from "../img/ss3.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -56,16 +57,31 @@ let settings = {
       <div className="slide-box">
       <img src={Sidebar} alt="" />
       </div>
-      <div className="slide-box">
+      {/* <div className="slide-box">
       <img src={Ecommerce} alt="" />
-      </div>
-      <div className="slide-box">
+      </div> */}
+      {/* <div className="slide-box">
       <img src={HOC} alt="" />
-      </div>
-      <div className="slide-box">
+      </div> */}
+      {/* <div className="slide-box">
       <img src={Ecommerce} alt="" />
-      </div>
-     <a href="https://yalla-haji-7wan.vercel.app/" target="_blank" rel="noopener noreferrer">
+      </div> */}
+            <a href="https://inventory-system-sap.vercel.app/login" target="_blank" rel="noopener noreferrer">
+  <div className="slide-box">
+    <img src={ss3} alt="inventory-system-sap" />
+  </div>
+</a>
+          <a href="https://healthcare-ai-4aor.vercel.app//" target="_blank" rel="noopener noreferrer">
+  <div className="slide-box">
+    <img src={ss4} alt="health care sample website" />
+  </div>
+</a>
+        <a href="https://bridgewater.ae/" target="_blank" rel="noopener noreferrer">
+  <div className="slide-box">
+    <img src={ss2} alt="Bridge water" />
+  </div>
+</a>
+     <a href="https://www.yallahaji.in/" target="_blank" rel="noopener noreferrer">
   <div className="slide-box">
     <img src={Yallah} alt="Yallah Haji" />
   </div>

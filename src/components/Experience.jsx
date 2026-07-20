@@ -10,11 +10,19 @@ const Experience = () => {
   AOS.init();
   return (
     <div className="experience" id='experience'>
+        <div className="exper-box-left" data-aos="fade-left" data-aos-duration="1500">
+     <div className="heading-exper">
+      <h2 className="h-1-tag">Freelance Web Developer</h2>
+      </div>
+      <p>Freelance Full Stack Developer specializing in modern, responsive websites built with React.js, MERN, and AI-powered development tools. I help businesses turn ideas into fast, scalable, and user-friendly digital experiences.
+</p>
+     
+     </div>
  <div className="exper-box-right" data-aos="fade-left" data-aos-duration="1500">
       <div className="heading-exper">
       <h2 className="h-1-tag">SAP Enginerring</h2>
       <h4>Software Developer</h4>
-      <span>2024-Present</span>
+      {/* <span>2024-2026</span> */}
       </div>
       <p>Developed an inventory management system (MERN stack) to streamline stock tracking and procurement workflows. Implemented authentication (JWT), CRUD features, status tracking, PDF generation, and data visualizations. Handled end-to-end development including requirement gathering, wireframing, and deployment (MongoDB Atlas, Express middleware).Integrated AI technologies for enhanced UX (e.g., ChatGPT API for intelligent automation).</p>
      </div>
@@ -43,19 +51,8 @@ const Experience = () => {
          to deliver high-quality, visually appealing, and functional websites.</p>
       
      </div>
-     <div className="exper-box-left" data-aos="fade-left" data-aos-duration="1500">
-     <div className="heading-exper">
-      <h2 className="h-1-tag">Freelance Web Developer</h2>
-      </div>
-      <p>Creating websites for clients with highly motivated Freelance Web Developers with years of
-         experience designing and developing dynamic and visually appealing websites.
-   	http://razasofttech.com/
-   	Sky Dreamers CRM 
-   	Sap engineering website
-</p>
-     
-     </div>
-<div  className="exper-box-right" data-aos="fade-right" data-aos-duration="1500">
+   
+<div  className="exper-box-left" data-aos="fade-right" data-aos-duration="1500">
 <h2 className="h-1-tag"> Independent Study and Exam Preparation</h2> 
 <h4>UPSC Exam Preparation - 2020 – 2021</h4>
 <p>Dedicated one year to rigorous study and preparation for 
